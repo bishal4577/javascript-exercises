@@ -14,11 +14,15 @@ const sum = function(arr) {
 	
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+    let product = 1;
+    arr.forEach(num => product *= num);
+    return product;
 };
 
-const power = function() {
+const power = function(base, power) {
+
+  return (base ** power);
 	
 };
 
